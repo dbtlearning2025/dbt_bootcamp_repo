@@ -1,0 +1,31 @@
+[0m08:53:12.171856 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014784309970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014787071C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000147870716D0>]}
+
+
+============================== 08:53:12.183655 | caa99643-084c-489d-815b-f4b9dac6d5cb ==============================
+[0m08:53:12.183655 [info ] [MainThread]: Running with dbt=1.9.4
+[0m08:53:12.183655 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\vivek\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt init', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:53:12.247823 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'WindowsPath'.. Dictionary: {'dir': WindowsPath('C:/Users/vivek/.dbt')}
+[0m08:53:12.247823 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m08:53:25.643750 [debug] [MainThread]: Starter project path: C:\Users\vivek\dbtlearning\dbtenv\Lib\site-packages\dbt\include\starter_project
+[0m08:53:25.711524 [info ] [MainThread]: 
+Your new dbt project "dbt_sales_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:53:25.713530 [info ] [MainThread]: Setting up your profile.
+[0m08:59:37.497247 [info ] [MainThread]: Profile dbt_sales_project written to C:\Users\vivek\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m08:59:37.498986 [debug] [MainThread]: Command `dbt init` succeeded at 08:59:37.498986 after 385.64 seconds
+[0m08:59:37.501004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014787967BF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014787964EF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014786C17C50>]}
+[0m08:59:37.501004 [debug] [MainThread]: Flushing usage events
+[0m08:59:38.782174 [debug] [MainThread]: An error was encountered while trying to flush usage events
