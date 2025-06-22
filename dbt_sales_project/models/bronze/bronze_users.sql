@@ -1,3 +1,5 @@
+
+{{ config(tag='contain-pii')}}
 SELECT
 *
 FROM 
