@@ -1,3 +1,7 @@
+{{ config(
+    tags=["pii"]
+) }}
+
 SELECT
     id,
     created_at,
