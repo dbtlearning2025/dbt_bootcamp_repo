@@ -1,3 +1,5 @@
+
+{{ config(schema ='gold')}}
 SELECT
     CAST(DATE_TRUNC('DAY', r.created_at) AS DATE) AS review_date,
     r.product_id,
